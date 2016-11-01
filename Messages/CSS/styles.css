@@ -10,21 +10,56 @@ h1 {
 
 h1 {
     display: inline-block;
-    color: lightgoldenrodyellow;
+    color: white;
     box-sizing: border-box;
     width: 100%;
     padding: 5px 0 8px 20px;
-    background-color: seagreen;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a5c9b3+0,539b5c+47,539b5c+47,3d8e3b+49,a8dbb3+100 */
+    background: #a5c9b3;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #a5c9b3 0%, #539b5c 47%, #539b5c 47%, #3d8e3b 49%, #a8dbb3 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a5c9b3 0%, #539b5c 47%, #539b5c 47%, #3d8e3b 49%, #a8dbb3 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a5c9b3 0%, #539b5c 47%, #539b5c 47%, #3d8e3b 49%, #a8dbb3 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a5c9b3', endColorstr='#a8dbb3', GradientType=0);
+    /* IE6-9 */
 }
 
 .foot {
     display: inline-block;
-    color: lightgray;
+    color: white;
     position: absolute;
     bottom: 0;
+    left: 0;
     box-sizing: border-box;
     width: 100%;
     padding: 3px 0 3px 20px;
     font-size: 0.9em;
-    background-color: seagreen;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a5c9b3+0,3b9946+0,a8dbb3+100 */
+    background: #a5c9b3;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #a5c9b3 0%, #3d8e3b 100%, #a8dbb3 0%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a5c9b3 0%, #3d8e3b 100%, #a8dbb3 0%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a5c9b3 0%, #3d8e3b 100%, #a8dbb3 0%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3d8e3b', endColorstr='#a8dbb3', GradientType=0);
+    /* IE6-9 */
+}
+
+.error {
+    color: red;
+}
+
+.correct {
+    color: green;
+}
+
+.greeting {
+    font-size: 1.5em;
+    color: seagreen;
+    padding: 0 0 10px 20px;
 }
