@@ -50,16 +50,84 @@ h1 {
     /* IE6-9 */
 }
 
+.error,
+.correct {
+    margin: 10px 0 0 20px;
+    font-size: 1.2em;
+}
+
 .error {
     color: red;
 }
 
 .correct {
-    color: green;
+    color: limegreen;
 }
 
 .greeting {
     font-size: 1.5em;
+    font-weight: bold;
     color: seagreen;
     padding: 0 0 10px 20px;
+}
+
+.textin {
+    margin: 0 0 10px 20px;
+    font-size: 1.2em;
+    color: darkgreen;
+}
+
+.textin>input {
+    width: 160px;
+    height: 25px;
+    position: absolute;
+    left: 135px;
+    padding-left: 5px;
+    border: 1px solid seagreen;
+    border-radius: 3px;
+    background-color: #a8dbb3;
+    font-size: 1em;
+}
+
+form div:last-of-type {
+    display: inline-block;
+    position: absolute;
+    top: 97px;
+    left: 310px;
+}
+
+form div:last-of-type>input {
+    width: 95px;
+    height: 65px;
+    left: 135px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: 3px outset #a8dbb3;
+    border-radius: 3px;
+    background-color: #3d8e3b;
+    font-size: 1.2em;
+}
+
+form div:last-of-type>input:focus {
+    border-style: inset;
+    outline: none;
+    padding: 0 2px 2px 0;
+}
+
+.notes {
+    margin: 0 0 0 20px;
+    font-size: 1em;
+    color: darkgreen;
+}
+
+.notes a {
+    font-weight: bold;
+    text-decoration: none;
+    color: darkgreen;
+    padding-left: 5px;
+}
+
+.notestwo a {
+    padding-left: 20px;
 }

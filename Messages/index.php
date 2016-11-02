@@ -1,5 +1,5 @@
 <?php
-$pageTitle='Contact List';
+$pageTitle='Login form';
 include './includes/header.php';
 include './functions.php';
 echo '
@@ -7,15 +7,15 @@ echo '
         Здрасти, моля логни се в системата!
     </div>
     <form method="post" action="index.php">
-        <div>Потребител: <input type="text" name="username" /> </div>
-        <div>Парола: <input type="password" name="password" /></div>
+        <div class="textin">Потребител: <input type="text" name="username" readonly /> </div>
+        <div class="textin">Парола: <input type="password" name="password" readonly /></div>
         <div><input type="submit" value="ВХОД" /></div>
     </form>
-    <div>
+    <div class="notes">
         Ако не си регистриран първо направи това от тук:
         <a href="register.php">Регистрация на нов потребител</a>
     </div>
-    <div>
+    <div class="notes notestwo">
         В случай, че си забравил паролата си цъкни тук:
         <a href="reset.php">Забравена парола или потребителско име</a>
     </div>
