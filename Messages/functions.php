@@ -1,7 +1,7 @@
 <?php
 // ========== VRYZKA S DATABASE ===========
 mb_internal_encoding('utf-8');
-$db = mysqli_connect('local','root', '', 'otpuski');
+$db = mysqli_connect('127.0.0.1','root', '', 'otpuski');
 if(!$db) {
     echo 'no database';
 }
