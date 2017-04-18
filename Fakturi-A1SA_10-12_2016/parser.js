@@ -1,7 +1,7 @@
 let info = {};
 let invoices = text.split('++++\n');
 let notes = invoices[0];
-let newNotes = notes.replace('0.\nЗабележки:\n', '').split('\n').filter(a => a != '');
+let newNotes = notes.replace('0.\nЗабележки:\n', '').split('\n').filter(a => a !== '');
 info.notes = newNotes;
 info.invoices = {};
 for (let i = 1; i < invoices.length; i++) {
