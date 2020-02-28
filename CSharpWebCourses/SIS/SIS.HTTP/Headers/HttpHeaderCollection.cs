@@ -16,7 +16,7 @@ namespace SIS.HTTP.Headers
             this.headers = new Dictionary<string, HttpHeader>();
         }
 
-        public void AddHeader(HttpHeader header)
+        public void Add(HttpHeader header)
         {
             CoreValidator.ThrowIfNull(header, nameof(header));
             this.headers.Add(header.Key, header);

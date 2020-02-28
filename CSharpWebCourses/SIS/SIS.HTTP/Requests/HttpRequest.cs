@@ -137,7 +137,7 @@ namespace SIS.HTTP.Requests
             plainHeaders
                 .Select(plainHeader => plainHeader.Split(new[] { ' ', ':' }, StringSplitOptions.RemoveEmptyEntries))
                 .ToList()
-                .ForEach(HeaderKeyValuePair => this.Headers.AddHeader(new HttpHeader(HeaderKeyValuePair[0], HeaderKeyValuePair[1])));
+                .ForEach(HeaderKeyValuePair => this.Headers.Add(new HttpHeader(HeaderKeyValuePair[0], HeaderKeyValuePair[1])));
         }
 
         private string[] GetPlainHeaders(string[] splitRequestString)
@@ -201,9 +201,9 @@ namespace SIS.HTTP.Requests
                 + "    Headers:\r\n"
                 + this.Headers.ToString() + "\r\n"
                 + "    Query Data:\r\n"
-                + string.Join("\r\n", QueryData) + "\r\n"
+                + string.Join("\r\n", StringExtensions.DictionaryToString(QueryData))
                 + "    Form Data:\r\n"
-                + string.Join("\r\n", FormData) + "\r\n"; 
+                + string.Join("\r\n", StringExtensions.DictionaryToString(FormData)); 
         }
     }
 }

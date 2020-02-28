@@ -1,0 +1,8 @@
+C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\SIS.HTTP\bin\Debug\netcoreapp3.0\SIS.HTTP.deps.json
+C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\SIS.HTTP\bin\Debug\netcoreapp3.0\SIS.HTTP.dll
+C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\SIS.HTTP\bin\Debug\netcoreapp3.0\SIS.HTTP.pdb
+C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\SIS.HTTP\obj\Debug\netcoreapp3.0\SIS.HTTP.csprojAssemblyReference.cache
+C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\SIS.HTTP\obj\Debug\netcoreapp3.0\SIS.HTTP.AssemblyInfoInputs.cache
+C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\SIS.HTTP\obj\Debug\netcoreapp3.0\SIS.HTTP.AssemblyInfo.cs
+C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\SIS.HTTP\obj\Debug\netcoreapp3.0\SIS.HTTP.dll
+C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\SIS.HTTP\obj\Debug\netcoreapp3.0\SIS.HTTP.pdb

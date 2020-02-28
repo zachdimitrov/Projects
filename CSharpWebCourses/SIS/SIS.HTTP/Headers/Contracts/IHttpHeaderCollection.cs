@@ -6,7 +6,7 @@ namespace SIS.HTTP.Headers.Contracts
 {
     public interface IHttpHeaderCollection
     {
-        void AddHeader(HttpHeader header);
+        void Add(HttpHeader header);
 
         bool ContainsHeader(string key);
 
