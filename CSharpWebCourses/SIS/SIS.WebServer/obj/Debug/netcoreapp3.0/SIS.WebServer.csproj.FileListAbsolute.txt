@@ -1,0 +1,11 @@
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\SIS.WebServer\bin\Debug\netcoreapp3.0\SIS.WebServer.deps.json
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\SIS.WebServer\bin\Debug\netcoreapp3.0\SIS.WebServer.dll
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\SIS.WebServer\bin\Debug\netcoreapp3.0\SIS.WebServer.pdb
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\SIS.WebServer\bin\Debug\netcoreapp3.0\SIS.HTTP.dll
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\SIS.WebServer\bin\Debug\netcoreapp3.0\SIS.HTTP.pdb
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.csprojAssemblyReference.cache
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.AssemblyInfoInputs.cache
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.AssemblyInfo.cs
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.csproj.CopyComplete
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.dll
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.pdb

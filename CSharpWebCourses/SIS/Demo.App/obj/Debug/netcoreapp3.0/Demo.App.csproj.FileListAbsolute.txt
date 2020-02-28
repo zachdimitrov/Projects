@@ -12,3 +12,17 @@ C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\Demo.App\
 C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcoreapp3.0\Demo.App.csproj.CopyComplete
 C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcoreapp3.0\Demo.App.dll
 C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcoreapp3.0\Demo.App.pdb
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\bin\Debug\netcoreapp3.0\Demo.App.exe
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\bin\Debug\netcoreapp3.0\Demo.App.deps.json
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\bin\Debug\netcoreapp3.0\Demo.App.runtimeconfig.json
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\bin\Debug\netcoreapp3.0\Demo.App.runtimeconfig.dev.json
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\bin\Debug\netcoreapp3.0\Demo.App.dll
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\bin\Debug\netcoreapp3.0\Demo.App.pdb
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\bin\Debug\netcoreapp3.0\SIS.HTTP.dll
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\bin\Debug\netcoreapp3.0\SIS.HTTP.pdb
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcoreapp3.0\Demo.App.csprojAssemblyReference.cache
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcoreapp3.0\Demo.App.AssemblyInfoInputs.cache
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcoreapp3.0\Demo.App.AssemblyInfo.cs
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcoreapp3.0\Demo.App.csproj.CopyComplete
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcoreapp3.0\Demo.App.dll
+C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcoreapp3.0\Demo.App.pdb
