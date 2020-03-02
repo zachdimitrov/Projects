@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SIS.WebServer.Routing
+namespace SIS.WebServer.Routing.Contracts
 {
     public interface IServerRoutingTable
     {

@@ -26,3 +26,6 @@ C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcor
 C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcoreapp3.0\Demo.App.csproj.CopyComplete
 C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcoreapp3.0\Demo.App.dll
 C:\Users\zdell\Documents\Projects\CSharpWebCourses\SIS\Demo.App\obj\Debug\netcoreapp3.0\Demo.App.pdb
+C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\Demo.App\bin\Debug\netcoreapp3.0\SIS.WebServer.dll
+C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\Demo.App\bin\Debug\netcoreapp3.0\SIS.WebServer.pdb
+C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\Demo.App\bin\Debug\netcoreapp3.0\Views\Home\Home.html

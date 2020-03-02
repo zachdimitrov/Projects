@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using SIS.HTTP.Common;
 using SIS.HTTP.Enums;
 using SIS.HTTP.Requests.Contracts;
 using SIS.HTTP.Responses.Contracts;
+using SIS.WebServer.Routing.Contracts;
 
 namespace SIS.WebServer.Routing
 {
-    class ServerRoutingTable : IServerRoutingTable
+    public class ServerRoutingTable : IServerRoutingTable
     {
         private Dictionary<HttpRequestMethod, Dictionary<string, Func<IHttpRequest, IHttpResponse>>> routingTable;
 

@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/SIS.HTTP.dll": {}
         }
+      },
+      "SIS.WebServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "SIS.HTTP": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SIS.WebServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SIS.WebServer.dll": {}
+        }
       }
     }
   },
@@ -19,27 +32,37 @@
       "type": "project",
       "path": "../SIS.HTTP/SIS.HTTP.csproj",
       "msbuildProject": "../SIS.HTTP/SIS.HTTP.csproj"
+    },
+    "SIS.WebServer/1.0.0": {
+      "type": "project",
+      "path": "../SIS.WebServer/SIS.WebServer.csproj",
+      "msbuildProject": "../SIS.WebServer/SIS.WebServer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "SIS.HTTP >= 1.0.0"
+      "SIS.HTTP >= 1.0.0",
+      "SIS.WebServer >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zdell\\.nuget\\packages\\": {}
+    "C:\\Users\\Zahari\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zdell\\Documents\\Projects\\CSharpWebCourses\\SIS\\Demo.App\\Demo.App.csproj",
+      "projectUniqueName": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\Demo.App\\Demo.App.csproj",
       "projectName": "Demo.App",
-      "projectPath": "C:\\Users\\zdell\\Documents\\Projects\\CSharpWebCourses\\SIS\\Demo.App\\Demo.App.csproj",
-      "packagesPath": "C:\\Users\\zdell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zdell\\Documents\\Projects\\CSharpWebCourses\\SIS\\Demo.App\\obj\\",
+      "projectPath": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\Demo.App\\Demo.App.csproj",
+      "packagesPath": "C:\\Users\\Zahari\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\Demo.App\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\zdell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Zahari\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,8 +75,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\zdell\\Documents\\Projects\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj": {
-              "projectPath": "C:\\Users\\zdell\\Documents\\Projects\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj"
+            "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj": {
+              "projectPath": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj"
+            },
+            "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.WebServer\\SIS.WebServer.csproj": {
+              "projectPath": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.WebServer\\SIS.WebServer.csproj"
             }
           }
         }
@@ -76,12 +102,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.2, 3.0.2]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

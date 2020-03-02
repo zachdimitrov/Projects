@@ -55,20 +55,23 @@ namespace SIS.HTTP.Requests
 
         private void ParseRequestQueryParameters()
         {
-            var parameters = this.Url
-                .Split('?', '#')[1]
-                .Split('&')
-                .Select(plainQueryParam => plainQueryParam.Split('='))
-                .ToList();
-
-            foreach (var parameter in parameters)
+            if (this.Url.Contains('?'))
             {
-                if (this.QueryData.ContainsKey(parameter[0]) == false)
-                {
-                    this.QueryData.Add(parameter[0], new HashSet<string>());
-                }
+                var parameters = this.Url
+                    .Split('?', '#')[1]
+                    .Split('&')
+                    .Select(plainQueryParam => plainQueryParam.Split('='))
+                    .ToList();
 
-                this.QueryData[parameter[0]].Add(parameter[1]);
+                foreach (var parameter in parameters)
+                {
+                    if (this.QueryData.ContainsKey(parameter[0]) == false)
+                    {
+                        this.QueryData.Add(parameter[0], new HashSet<string>());
+                    }
+
+                    this.QueryData[parameter[0]].Add(parameter[1]);
+                }
             }
         }
 

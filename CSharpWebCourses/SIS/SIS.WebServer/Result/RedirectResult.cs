@@ -1,8 +1,5 @@
 ﻿using SIS.HTTP.Enums;
 using SIS.HTTP.Responses;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SIS.WebServer.Result
 {

@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\zdell\\.nuget\\packages\\": {}
+    "C:\\Users\\Zahari\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zdell\\Documents\\Projects\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj",
+      "projectUniqueName": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj",
       "projectName": "SIS.HTTP",
-      "projectPath": "C:\\Users\\zdell\\Documents\\Projects\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj",
-      "packagesPath": "C:\\Users\\zdell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zdell\\Documents\\Projects\\CSharpWebCourses\\SIS\\SIS.HTTP\\obj\\",
+      "projectPath": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj",
+      "packagesPath": "C:\\Users\\Zahari\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.HTTP\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\zdell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Zahari\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,12 +57,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
