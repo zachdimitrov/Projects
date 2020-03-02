@@ -28,7 +28,7 @@ namespace SServer
                     string url = urlLine.Split(" ", StringSplitOptions.RemoveEmptyEntries)[1];
                     
                     Console.WriteLine(new string('=', 30));
-                    Console.WriteLine(url);
+                    Console.WriteLine(stringRequest);
 
                     if (url.Contains("JPG"))
                     {
