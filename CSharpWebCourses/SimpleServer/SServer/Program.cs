@@ -3,6 +3,7 @@ using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 
 namespace SServer
 {
@@ -63,9 +64,10 @@ namespace SServer
                         "Date: " + DateTime.Now.ToString() + "\r\n" +
                         "Server: The-Best-Server\r\n" +
                         "Content-type: Text/html\r\n" +
-                        $"Content-length: {content.Length}" +
+                        //$"Content-length: {content.Length + DateTime.Now.ToLongTimeString().Length}" +
                         "\r\n" + "\r\n" +
-                        content;
+                        content + "\r\n" + "<h2>" +
+                        DateTime.Now.ToLongTimeString() + "</h2></body></html>";
 
                         byte[] bytesResponse = Encoding.UTF8.GetBytes(response);
                         stream.Write(bytesResponse, 0, bytesResponse.Length);
