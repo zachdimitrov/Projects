@@ -114,3 +114,77 @@ static void Main()
   }
 }
 ```
+## Multi threading in C#
+- start a new thread
+each thread has own stack
+thrown exception ends thread, program still works
+
+```c#
+Thread myThread = new Thread(() => myMethod()); // create Thread object (not started)
+myThread.Priority = ThreadPriority.Highest; // optional
+myThread.Start(); // start
+myThread.Join(); // return thread to main (or upper thread), used at the end of program
+```
+
+- start a task - more abstract async programming
+more control on exceptions
+```c#
+var task = new Task(() => myMethod());
+if(task.IsFaulted) { Console.WriteLine("Error!"); }
+// old usage - Async metods return Task
+Task.Run(() => File.ReadAllTextAsync("C:\temp.txt"))
+.ContinueWith(prevTask => File.WriteAllTextAsync("mytxt.txt", prevTask.Result))
+.ContinueWith(prevTask => Console.WriteLine("OK!"));
+// Task.Factory
+Task.Factory.StartNew(() => Console.WriteLine(), TaskCreationOptions.None);
+```
+
+- thread safety
+when we work wit global variables - be careful
+exception handling - inside the thread, not outside
+```c#
+lock() // this will be locked for 1 thread only, use minimal
+{
+  a++;
+}
+// same is done with
+Monitor.Enter(lockObj);
+a++;
+Monitor.Exit(lockObj);
+```
+
+- processes
+```C#
+Process.Start("calc.exe"); // start external program
+Process.Kill("calc.exe"); // ends external porgram
+```
+
+- volatile - used very rarely - makes variable thread safety
+```c#
+public volatile string text = "text";
+```
+
+- Async methods - best way for async programming
+```c#
+static void Main()
+{
+  SumNumbersAsync(100).GetAwaiter().GetResult();
+}
+
+static async Task SumNumbersAsync(int max)
+{
+  try
+  {
+    var lines = await File.ReadAllLinesAsync("C:\temp.txt");
+    await File.WriteAllLinesAsync("mytxt.txt", lines);
+    Console.WriteLine("OK!");
+  }
+  catch
+  {
+    Console.WriteLine("Error!");
+  }
+}
+```
+- difference between ASYNC and MULTITHREADED:
+Async can work on 1 thread only (like node.js).
+Multithreaded is when many threads are used.

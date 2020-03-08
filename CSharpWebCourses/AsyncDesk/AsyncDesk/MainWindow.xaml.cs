@@ -28,21 +28,21 @@ namespace AsyncDesk
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            ShowImage(Image1, "https://http.cat/100");
-            ShowImage(Image2, "https://http.cat/201");
-            ShowImage(Image3, "https://http.cat/302");
-            ShowImage(Image4, "https://http.cat/404");
-            ShowImage(Image5, "https://http.cat/500");
-            ShowImage(Image6, "https://http.cat/509");
+            await ShowImageAsync(Image1, "https://http.cat/100");
+            await ShowImageAsync(Image2, "https://http.cat/201");
+            await ShowImageAsync(Image3, "https://http.cat/302");
+            await ShowImageAsync(Image4, "https://http.cat/404");
+            await ShowImageAsync(Image5, "https://http.cat/500");
+            await ShowImageAsync(Image6, "https://http.cat/509");
         }
 
-        private void ShowImage(Image image, string url)
+        private async Task ShowImageAsync(Image image, string url)
         {
             WebClient wc = new WebClient();
-            var result = wc.DownloadData(url);
-            Thread.Sleep(2000);
+            var result = await wc.DownloadDataTaskAsync(url);
+            await Task.Run(() => Thread.Sleep(1000));
             image.Source = LoadImage(result);
         }
 
@@ -62,6 +62,21 @@ namespace AsyncDesk
             }
             image.Freeze();
             return image;
+        }
+
+        private static bool clicked = false;
+        private async void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (clicked)
+            {
+                textField.Text = "Yes, I work!!!";
+                clicked = false;
+            }
+            else
+            {
+                textField.Text = "Check me again!";
+                clicked = true; 
+            }
         }
     }
 }
