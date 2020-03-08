@@ -188,3 +188,10 @@ static async Task SumNumbersAsync(int max)
 - difference between ASYNC and MULTITHREADED:
 Async can work on 1 thread only (like node.js).
 Multithreaded is when many threads are used.
+
+- Parallel.For
+```c#
+Parallel.For(from, to, () => {
+cycleBody();
+});
+```
