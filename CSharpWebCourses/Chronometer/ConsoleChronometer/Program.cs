@@ -6,7 +6,7 @@ namespace ConsoleChronometer
     {
         static void Main(string[] args)
         {
-            Chronometer chr = new Chronometer();
+            CronometerCustom chr = new CronometerCustom();
             Console.WriteLine("Use one of the following commands:\n\r[start] [stop] [lap] [laps] [time] [reset] [exit]");
             while (true)
             {
@@ -32,6 +32,8 @@ namespace ConsoleChronometer
                     case "reset":
                         chr.Reset();
                         break;
+                    case "exit":
+                        return;
                     default: 
                         Console.WriteLine("Invalid command!");
                         break;
