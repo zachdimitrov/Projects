@@ -14,6 +14,7 @@ namespace ConsoleChronometer
 
         public CronometerCustom()
         {
+            this.isRunning = false;
             this.elapsed = 0;
             this.Laps = new List<string>();
         }
@@ -44,7 +45,7 @@ namespace ConsoleChronometer
             return str.ToString().TrimEnd();
         }
 
-        public List<string> Laps { get; }
+        public List<string> Laps { get; private set; }
 
         public string Lap()
         {
@@ -56,7 +57,9 @@ namespace ConsoleChronometer
 
         public void Reset()
         {
+            this.Stop();
             this.milliseconds = 0;
+            this.Laps = new List<string>();
         }
 
         public void Start()

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleChronometer.Contracts;
+using System;
 
 namespace ConsoleChronometer
 {
@@ -6,8 +7,8 @@ namespace ConsoleChronometer
     {
         static void Main(string[] args)
         {
-            CronometerCustom chr = new CronometerCustom();
-            Console.WriteLine("Use one of the following commands:\n\r[start] [stop] [lap] [laps] [time] [reset] [exit]");
+            IChronometer chr = new CronometerCustom();
+            Console.WriteLine("Use one of the following commands:\r\n[start] [stop] [lap] [laps] [time] [reset] [exit]");
             while (true)
             {
                 string command = Console.ReadLine();

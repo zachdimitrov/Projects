@@ -15,5 +15,7 @@ namespace ConsoleChronometer.Contracts
         string Lap();
 
         void Reset();
+
+        string getLaps();
     }
 }
