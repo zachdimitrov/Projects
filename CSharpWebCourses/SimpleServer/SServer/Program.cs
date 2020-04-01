@@ -71,6 +71,8 @@ namespace SServer
                     "Date: " + DateTime.Now.ToString() + "\r\n" +
                     "Server: The-Best-Server\r\n" +
                     "Content-type: Text/html\r\n" +
+                    "Set-Cookie: cookie1=test\r\n" +
+                    "Set-Cookie: cookie2=test2\r\n" +
                     //$"Content-length: {content.Length + DateTime.Now.ToLongTimeString().Length}" +
                     "\r\n" + "\r\n" +
                     content + "\r\n" + "<h2>" +
