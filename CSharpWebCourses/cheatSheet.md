@@ -195,3 +195,10 @@ Parallel.For(from, to, () => {
 cycleBody();
 });
 ```
+
+## Cookies
+- Attributes - Domain and Path
+```c#
+// add to header
+"Set-Cookie: cookie1=test; Domain=bg.mysite.com; Path=/"
+```
