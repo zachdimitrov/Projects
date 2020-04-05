@@ -46,23 +46,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Zahari\\.nuget\\packages\\": {},
+    "C:\\Users\\test\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\Demo.App\\Demo.App.csproj",
+      "projectUniqueName": "C:\\Projects\\ProjectsGH\\CSharpWebCourses\\SIS\\Demo.App\\Demo.App.csproj",
       "projectName": "Demo.App",
-      "projectPath": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\Demo.App\\Demo.App.csproj",
-      "packagesPath": "C:\\Users\\Zahari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\Demo.App\\obj\\",
+      "projectPath": "C:\\Projects\\ProjectsGH\\CSharpWebCourses\\SIS\\Demo.App\\Demo.App.csproj",
+      "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\ProjectsGH\\CSharpWebCourses\\SIS\\Demo.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Zahari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\test\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -75,11 +75,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj": {
-              "projectPath": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj"
+            "C:\\Projects\\ProjectsGH\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj": {
+              "projectPath": "C:\\Projects\\ProjectsGH\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj"
             },
-            "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.WebServer\\SIS.WebServer.csproj": {
-              "projectPath": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.WebServer\\SIS.WebServer.csproj"
+            "C:\\Projects\\ProjectsGH\\CSharpWebCourses\\SIS\\SIS.WebServer\\SIS.WebServer.csproj": {
+              "projectPath": "C:\\Projects\\ProjectsGH\\CSharpWebCourses\\SIS\\SIS.WebServer\\SIS.WebServer.csproj"
             }
           }
         }

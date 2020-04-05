@@ -20,3 +20,14 @@ C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\SIS.WebSe
 C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.csproj.CopyComplete
 C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.dll
 C:\Users\Zahari\Documents\Projects\ProjectsGithub\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.pdb
+C:\Projects\ProjectsGH\CSharpWebCourses\SIS\SIS.WebServer\bin\Debug\netcoreapp3.0\SIS.WebServer.deps.json
+C:\Projects\ProjectsGH\CSharpWebCourses\SIS\SIS.WebServer\bin\Debug\netcoreapp3.0\SIS.WebServer.dll
+C:\Projects\ProjectsGH\CSharpWebCourses\SIS\SIS.WebServer\bin\Debug\netcoreapp3.0\SIS.WebServer.pdb
+C:\Projects\ProjectsGH\CSharpWebCourses\SIS\SIS.WebServer\bin\Debug\netcoreapp3.0\SIS.HTTP.dll
+C:\Projects\ProjectsGH\CSharpWebCourses\SIS\SIS.WebServer\bin\Debug\netcoreapp3.0\SIS.HTTP.pdb
+C:\Projects\ProjectsGH\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.csprojAssemblyReference.cache
+C:\Projects\ProjectsGH\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.AssemblyInfoInputs.cache
+C:\Projects\ProjectsGH\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.AssemblyInfo.cs
+C:\Projects\ProjectsGH\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.csproj.CopyComplete
+C:\Projects\ProjectsGH\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.dll
+C:\Projects\ProjectsGH\CSharpWebCourses\SIS\SIS.WebServer\obj\Debug\netcoreapp3.0\SIS.WebServer.pdb

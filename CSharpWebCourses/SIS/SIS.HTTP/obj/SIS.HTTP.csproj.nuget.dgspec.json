@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj": {}
+    "C:\\Projects\\ProjectsGH\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj": {
+    "C:\\Projects\\ProjectsGH\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj",
+        "projectUniqueName": "C:\\Projects\\ProjectsGH\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj",
         "projectName": "SIS.HTTP",
-        "projectPath": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj",
-        "packagesPath": "C:\\Users\\Zahari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zahari\\Documents\\Projects\\ProjectsGithub\\CSharpWebCourses\\SIS\\SIS.HTTP\\obj\\",
+        "projectPath": "C:\\Projects\\ProjectsGH\\CSharpWebCourses\\SIS\\SIS.HTTP\\SIS.HTTP.csproj",
+        "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\ProjectsGH\\CSharpWebCourses\\SIS\\SIS.HTTP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zahari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\test\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
