@@ -1,0 +1,40 @@
+body,
+div,
+td,
+th,
+tr,
+table {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: lightsalmon;
+}
+
+td,
+th {
+    width: 100px;
+    padding: 5px;
+}
+
+th:first-of-type {
+    width: 50px;
+}
+
+td.uid {
+    width: 50px;
+    background-color: lightgreen;
+}
+
+tr:nth-of-type(2n) {
+    background-color: lightgrey;
+}

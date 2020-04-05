@@ -1,0 +1,7 @@
+-------------
+Trello
+API: b77dfa108275477c7ef202f420a0fecf
+Secret: 1b44980a72d6400823af99b004e1d36233c8da47c4b41fd5cac31126ad7bcc1d
+-------------
+Google
+API:

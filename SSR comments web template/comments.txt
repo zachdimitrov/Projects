@@ -1,0 +1,47 @@
+View 1
+- Rotate this view to show more of Building 3 (~30%)
+- Also shift to south - study angles as a group; current camera height is okay.
+- Verify the source and reliability of adjacent foreground boathouse.
+- Remove obelisk.
+- EYA to p[provide Revit model for new ODBC building in background.
+
+View 2
+- Reverse this view - position camera at Duke & Union.
+
+View 3
+- Revisit camera location and angle (with input from BY)
+- More promenade and water.
+
+View 4
+- Tag to video @ 1:15
+- Replace this view with new view looking at Bldg 2 residential entrance towards water.
+
+View 5
+- Pan towards right and rotate to bring south facade of Bldg 3 more into view.
+
+View 6
+- Extend view to left
+- Elevate camera to 2nd level
+
+View 7
+- Extend view to left and (more) right.
+- Elevate camera to 2nd level.
+
+View 8
+- Rotate slightly to push right end of building further back.
+- Extend view to right
+- Elevate camera to 2nd level
+
+View 14
+- Replace this view with view looking south on Strand to 10 Duke.
+- Viktor: Is 10 Duke the same Building as 2 Duke? The historic building behind Building 1?
+- This view is not required.
+
+View 15
+- This view is not required.
+
+View 16
+- Revisit camera location and angle of this view (with input from BY).
+
+View 17
+- This view is not required.

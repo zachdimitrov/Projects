@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'font_regular';
+    src: url('../fonts/ubuntu-mono.eot');
+    src: url('../fonts/ubuntu-mono.woff') format('woff'), url('../fonts/ubuntu-mono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,
+div,
+a,
+h1,
+h2,
+h3,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-family: 'font_regular', 'sans-serif';
+}
+
+h1 {
+    font-size: 30px;
+    padding: 20px 0 20px 30px;
+}
+
+.links {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.links>li {
+    display: inline-block;
+    padding: 10px 10px 0 0;
+}
+
+.links>li:hover {
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+.hidden {
+    display: none;
+    list-style-type: none;
+}
+
+.links:hover .hidden {
+    display: inline;
+}
+
+.links>li a {
+    color: gray;
+    text-decoration: none;
+}
+
+.links>li:hover a {
+    color: black;
+}
+
+#maininfo {
+    display: none;
+}
